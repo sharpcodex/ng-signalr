@@ -11,8 +11,30 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{A877
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{C1C1ECB5-009D-448E-BF2F-951C9159EA80}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ng-signalr", "ng-signalr\ng-signalr.csproj", "{01022F50-74D7-47D2-8D74-067D4CD7D722}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ng-signalr.sample", "ng-signalr.sample\ng-signalr.sample.csproj", "{857C5FE4-1537-4DFE-8F73-DCA51D0364DA}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01022F50-74D7-47D2-8D74-067D4CD7D722}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01022F50-74D7-47D2-8D74-067D4CD7D722}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01022F50-74D7-47D2-8D74-067D4CD7D722}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01022F50-74D7-47D2-8D74-067D4CD7D722}.Release|Any CPU.Build.0 = Release|Any CPU
+		{857C5FE4-1537-4DFE-8F73-DCA51D0364DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{857C5FE4-1537-4DFE-8F73-DCA51D0364DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{857C5FE4-1537-4DFE-8F73-DCA51D0364DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{857C5FE4-1537-4DFE-8F73-DCA51D0364DA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{01022F50-74D7-47D2-8D74-067D4CD7D722} = {BC5C7BD8-6432-4B89-BAE5-797CA07EC2B6}
+		{857C5FE4-1537-4DFE-8F73-DCA51D0364DA} = {A8771B8F-B402-4CCF-A9CF-F74F0F27E779}
 	EndGlobalSection
 EndGlobal
